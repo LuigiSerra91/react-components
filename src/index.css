@@ -8,6 +8,12 @@ body {
   background-color: rgb(218, 215, 215);
 }
 
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+}
+
 img {
   max-width: 100%;
 }
@@ -15,6 +21,13 @@ img {
 header {
   text-align: center;
   padding: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+  img {
+    width: 30px;
+  }
 }
 
 main {

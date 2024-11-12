@@ -1,11 +1,13 @@
+import logo from '../assets/react.svg'
 export default function AppHeader() {
     const titlePage = 'Il mio blog'
 
     return (
         <header>
-            <div className="container">
-                <h1>{titlePage}</h1>
-            </div>
+
+            <img src={logo} alt="" />
+            <h1>{titlePage}</h1>
+
         </header>
     )
 }
