@@ -3,3 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: rgb(218, 215, 215);
+}
+
+header {
+  text-align: center;
+  padding: 1rem;
+}
